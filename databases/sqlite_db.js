@@ -22,7 +22,7 @@ try {
   throw new Error(
       'sqlite3 not found. It was removed from ueberdb\'s dependencies because it requires ' +
       'compilation which fails on several systems. If you still want to use sqlite, run ' +
-      '"npm install sqlite3" in your etherpad-lite root folder.');
+      '"npm install sqlite3" in your etherpad-lite ./src directory.');
 }
 
 const AbstractDatabase = require('../lib/AbstractDatabase');
